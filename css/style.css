@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+html {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: #19a2ae;
+  background-image: url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
+}
+
+.maindiv {
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+.maindiv .sec1 {
+  background-color: white;
+}
+
+.maindiv .sec1 .bg {
+  width: 17rem;
+  margin: 0px;
+}
+
+.maindiv .sec1 .avatar {
+  border-radius: 50%;
+  position: absolute;
+  left: 8rem;
+  top: 6rem;
+}
+
+.maindiv .sec1 .name {
+  padding-top: 2rem;
+  margin-bottom: 0px;
+  font-weight: 700;
+}
+
+.maindiv .sec1 .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.maindiv .sec1 .flex p {
+  padding-right: 0.5rem;
+  padding-left: 1.3rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.maindiv .sec1 .flex span {
+  font-weight: 700;
+}
+
+.maindiv .sec1 .namesec {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .maindiv {
+    width: 17rem;
+    margin-left: 25rem;
+  }
+  .maindiv .sec1 .avatar {
+    border-radius: 50%;
+    position: absolute;
+    left: 33rem;
+    top: 6rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
